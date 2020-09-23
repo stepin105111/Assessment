@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    Select your products : <select name="products" id="product" onchange="product()">
+      <option selected="" value="Default">--Select--</option>
+      <option value="Laptop">Laptop</option>
+      <option value="Mobile">Mobile</option>
+      <option value="Tv">Tv</option>
+    </select>
+  </div>
+
+  <br>
+  <div> <span id="display"></span></div>
+
+  <script>
+    function product() {
+      var name =document.getElementById("product").value;
+      if (name == "Laptop") {
+        var productTypes = ['HP', 'Dell', 'Lenova'];
+        document.getElementById("display").innerHTML = productTypes.join("<br>");
+
+      } else if (name == "Mobile") {
+        var productTypes = ['Redmi', 'Nokia', 'Samsung'];
+        document.getElementById("display").innerHTML = productTypes.join("<br>");
+      } else if (name == "Tv") {
+        var productTypes = ['Samsung', 'Sony', 'Sharp'];
+        document.getElementById("display").innerHTML = productTypes.join("<br>");
+      } 
+    }
+  </script>
+</body>
+
+</html>
