@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Hayatt",
+        "city": "Kochi",
+        "type": "Non Veg",
+        "cuisine": ["Indian", "Italian"]
+    },
+    {
+        "name": "Bouange",
+        "city": "Banglore",
+        "type": "Non Veg",
+        "cuisine": ["Indian", "Chinese"]
+    },
+    {
+        "name": "Al Saj",
+        "city": "Tvm",
+        "type": "Non-Veg",
+        "cuisine": ["Indian", "Chinese", "Arabian"]
+    },
+    {
+        "name": "Paradise",
+        "city": "Banglore",
+        "type": "Non-Veg",
+        "cuisine": ["Italian", "Chinese"]
+    },
+    {
+        "name": "Thakkaram",
+        "city": "Tvm",
+        "type": "Non-Veg",
+        "cuisine": ["Arabian", "Chinese", "Italian"]
+    },
+    {
+        "name": "Le-Arabia",
+        "city": "Kazhakuttom",
+        "type": "Veg",
+        "cuisine": ["Indian", "Italian", "Chinese"]
+    }
+]
