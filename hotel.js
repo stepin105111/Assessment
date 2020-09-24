@@ -16,7 +16,7 @@ app.get("/details", function(req, res)
     res.send(nameList);
 })
 
-// Search Hotel by City (Mysore, Banglore and Hyderabad)
+// Search Hotel by City (Mysore, Tvm, Kazhakuttom, Banglore and Kochi)
 app.get("/searchByCity", function(req, res)
 {
     keyword = req.query.sCity;
@@ -46,7 +46,7 @@ app.get("/searchByType", function(req, res)
     res.send(searchType);
 })
 
-// Search by Cuisine (Indian, Arabian and Italian)
+// Search by Cuisine (Indian, Arabian,chinese and Italian)
 app.get("/searchByCuisine", function(req, res)
 {
     keyword = req.query.sCuisine;
